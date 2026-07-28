@@ -1,5 +1,8 @@
 # Uncertainty-Aware Audio Content Classification using Wav2Vec2
-
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)
+![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow)
+![Status](https://img.shields.io/badge/Research-Ongoing-success)
 > **Ongoing Individual Research**
 
 A research-oriented framework for environmental sound classification that extends **Wav2Vec2** with **Bayesian Monte Carlo Dropout** and **calibration analysis** to estimate prediction uncertainty and improve the reliability of deep learning models.
