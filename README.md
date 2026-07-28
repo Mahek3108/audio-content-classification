@@ -1,4 +1,4 @@
-# Bayesian Uncertainty-Aware Audio Content Classification using Wav2Vec2
+# Uncertainty-Aware Audio Content Classification using Wav2Vec2
 
 > **Ongoing Individual Research**
 
