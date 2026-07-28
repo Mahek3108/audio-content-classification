@@ -139,7 +139,7 @@ class Trainer:
                     CHECKPOINT_DIR / "best_model.pth",
                 )
 
-                print("✅ Best model saved.")
+                print(" Best model saved.")
         torch.save(
             {
                 "train_loss": train_losses,
@@ -150,4 +150,4 @@ class Trainer:
             OUTPUT_DIR / "training_history.pt",
         )
 
-        print("✅ Training history saved.")
+        print(" Training history saved.")

@@ -29,7 +29,7 @@ class Wav2Vec2Encoder(nn.Module):
 
         hidden_states = outputs.last_hidden_state
 
-        # Mean (Average) Pooling
+        # Mean Pooling
         embeddings = hidden_states.mean(dim=1)
 
         return embeddings

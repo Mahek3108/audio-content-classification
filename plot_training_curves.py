@@ -57,4 +57,4 @@ plt.tight_layout()
 plt.savefig("outputs/loss_curve.png", dpi=300)
 plt.close()
 
-print("✅ Training curves saved to outputs/")
+print(" Training curves saved to outputs/")

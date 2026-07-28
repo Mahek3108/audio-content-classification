@@ -88,9 +88,8 @@ def main():
 
             all_probs.append(probs.cpu())
 
-    # =====================================================
+    
     # Metrics
-    # =====================================================
 
     accuracy = accuracy_score(
         all_labels,
@@ -133,9 +132,8 @@ def main():
         f.write(f"ECE      : {ece:.4f}\n")
 
     
-    # =====================================================
+    
     # Classification Report
-    # =====================================================
 
     report = classification_report(
         all_labels,
@@ -149,9 +147,7 @@ def main():
     with open("outputs/classification_report.txt", "w") as f:
         f.write(report)
 
-    # =====================================================
     # Confusion Matrix
-    # =====================================================
 
     class_names = [
         "dog", "rooster", "pig", "cow", "frog",
@@ -193,9 +189,9 @@ def main():
     )
     plt.close()
 
-    print("\n✅ Metrics saved to outputs/metrics.txt")
-    print("✅ Classification report saved to outputs/classification_report.txt")
-    print("✅ Confusion matrix saved to outputs/confusion_matrix.png")
+    print("\n Metrics saved to outputs/metrics.txt")
+    print(" Classification report saved to outputs/classification_report.txt")
+    print(" Confusion matrix saved to outputs/confusion_matrix.png")
 
 
 if __name__ == "__main__":
